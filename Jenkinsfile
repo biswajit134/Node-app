@@ -6,19 +6,28 @@ pipeline {
             steps{
                 echo "Clone the project"
                 
+                
             }
         }
         stage('Test') {
-            steps{}
+            steps{
+                echo "Clone the project"
+            }
         }
         stage('Build') {
-            steps{}
+            steps{
+                echo "Clone the project"
+            }
         }
         stage('Push') {
-            steps{}
+            steps{
+                echo "Clone the project"
+            }
         }
         stage('Deploy') {
-            steps{}
+            steps{
+                echo "Clone the project"
+            }
         }
     }
 }
