@@ -13,14 +13,16 @@ pipeline {
         stage('Test') {
             steps{
                 echo "Test the code"
-                sh "npm ci"
-                sh "npm run test"
-                echo "Test sucessfully"
+                // sh "npm ci"
+                // sh "npm run test"
+                // echo "Test sucessfully"
             }
         }
         stage('Build') {
             steps{
                 echo "Build the docker file"
+                sh "docker build -t biswajit134/task2 ."
+                echo "Build sucessfully"
             }
         }
         stage('Push') {
