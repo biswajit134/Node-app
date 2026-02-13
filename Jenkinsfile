@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Code clone') {
             steps{
+                echo "Clone the project"
                 
             }
         }
