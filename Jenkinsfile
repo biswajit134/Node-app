@@ -13,6 +13,9 @@ pipeline {
         stage('Test') {
             steps{
                 echo "Test the code"
+                sh "npm ci"
+                sh "npm run test"
+                echo "Test sucessfully"
             }
         }
         stage('Build') {
