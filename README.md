@@ -1,7 +1,5 @@
-# TASK 1: Automate Code Deployment Using CI/CD Pipeline (GitHub Actions)
-## •	Objective: Set up a CI/CD pipeline to build and deploy a web app.
-## •	Tools: GitHub, GitHub Actions, Node.js, Docker
-## •	Deliverables: GitHub repo with .yml CI/CD workflow
+# TASK 2: Create a Simple Jenkins Pipeline for CI/CD
+
 
 # Open the PDF 
-## https://drive.google.com/file/d/1rDFWuBzwPC7UQsRsIkVkmd_uOc60OdJO/view?usp=sharing
+## https://drive.google.com/file/d/1cHY8_h2_ucF0IS7jpIONgbSDbbECQ_QV/view?usp=sharing
