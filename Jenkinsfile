@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps{
                 echo "Test the code"
-                sh "node -v"
+                //sh "node -v"
                 // sh "npm ci"
                 // sh "npm run test"
                 // echo "Test sucessfully"
