@@ -11,22 +11,22 @@ pipeline {
         }
         stage('Test') {
             steps{
-                echo "Clone the project"
+                echo "Test the code"
             }
         }
         stage('Build') {
             steps{
-                echo "Clone the project"
+                echo "Build the docker file"
             }
         }
         stage('Push') {
             steps{
-                echo "Clone the project"
+                echo "Push image in Dockerhub"
             }
         }
         stage('Deploy') {
             steps{
-                echo "Clone the project"
+                echo "Run the container"
             }
         }
     }
