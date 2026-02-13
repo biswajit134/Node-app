@@ -7,7 +7,7 @@ pipeline {
                 echo "Clone the project"
                 git url : "https://github.com/biswajit134/Node-app.git", branch: "main"
                 echo "Code clone sucessfully"
-                
+                sh "pwd"
             }
         }
         stage('Test') {
