@@ -21,7 +21,7 @@ pipeline {
         stage('Build') {
             steps{
                 echo "Build the docker file"
-                sh "sudo docker build -t biswajit134/task2 ."
+                sh "docker build -t biswajit134/task2 ."
                 echo "Build sucessfully"
             }
         }
