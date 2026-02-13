@@ -40,7 +40,9 @@ pipeline {
         }
         stage('Deploy') {
             steps{
-                echo "Run the container"
+                echo "Run the container using docker-compose"
+                sh "docker-compose up -d"
+                echo "Deploy sucessfully"
             }
         }
     }

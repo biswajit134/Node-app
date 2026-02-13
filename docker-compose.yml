@@ -1,0 +1,8 @@
+services:
+  app:
+    image: biswajit134/task2:latest
+    container_name: node-app
+
+    ports:
+      - "3000:80"
+    restart: unless-stopped
