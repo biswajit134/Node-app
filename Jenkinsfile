@@ -23,6 +23,7 @@ pipeline {
                 echo "Build the docker file"
                 sh "docker build -t biswajit134/task2 ."
                 echo "Build sucessfully"
+                sh "whoami"
             }
         }
         stage('Push') {
